@@ -5,7 +5,8 @@
 	"main": "app/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node server.js"
+		"start": "node server.js",
+		"build": "webpack --config ./webpack.production.config.js --progress --profile --colors"
 	},
 	"author": "",
 	"license": "MIT",

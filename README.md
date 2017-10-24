@@ -11,7 +11,7 @@ npm install
 ```
 
 ```js
-node start
+node server
 ```
 
 访问 ```localhost:8000```
