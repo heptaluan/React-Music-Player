@@ -1,6 +1,6 @@
-一个 `React Music Player` 相关示例
+一个使用 React 搭建的网页版 Music Player，SPA 单页应用，播放器和音乐列表互相分离，播放时不影响选择歌曲
 
-基于 `react` + `react-router` + `sass`，由于数据不是很多，使用了 `pubsub-js` 替代了 `redux`
+使用 react-hot 进行热更新，利用 html-webpack-plugin 来自动生成模版文件，由于采用的本地数据接口并且数据量不是很多，所以使用了 PubSubJS 来替代 Redux
 
 ----
 
